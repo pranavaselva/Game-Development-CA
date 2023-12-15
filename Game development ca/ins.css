@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/moon-sky-night-background-asset-game-2d-futuristic-generative-ai_191095-2049.jpg?ga=GA1.1.562632837.1702354214&semt=ais_ai_generated); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.instructions{
+  color: rgb(88, 209, 213);
+  text-align: center;
+}
+
+.rules{
+    color: rgb(80, 222, 227);
+    font-size: 25px;
+}
+
+.start-btn{
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: rgb(94, 197, 200);
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:600px){
+
+   body{
+    background-size: 350%;
+   }
+
+    .instructions{
+        font-size: 18px;
+    }
+
+    .rules{
+        font-size: 16px;
+    }
+
+    .start-btn{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .start,
+    .steps{
+        flex-direction: column;
+    }
+}
